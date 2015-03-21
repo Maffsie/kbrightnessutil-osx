@@ -13,7 +13,7 @@ io_connect_t io;
 uint64_t wtf=0;
 //}}}
 
-int getKBBrightness() {//{{{
+int getKBBrightness(void) {//{{{
 	kern_return_t kr;
 	uint32_t c_out=1,c_in=1;
 	uint64_t cbr;
