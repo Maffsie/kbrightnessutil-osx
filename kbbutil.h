@@ -12,6 +12,7 @@
 // prototypes {{{
 int getKBBrightness(void);
 bool setKBBrightness(int);
+int   main(int, char* []);
 enum {
 	kGetSensorReadingID	= 0,
 	kGetLEDBrightnessID	= 1,

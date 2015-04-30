@@ -41,12 +41,9 @@ tags:	$(SRC)
 	@echo [ctags]
 	@ctags $(SRC)
 
-# root ownership and suid bit is set to enable non-root execution
-#install:	kbbutil
-#	@sudo rm -f $(PREFIX)/bin/kbbutil
-#	@cp -a kbbutil $(PREFIX)/bin/kbbutil
-#	@sudo chown root:root $(PREFIX)/bin/kbbutil
-#	@sudo chmod 4755 $(PREFIX)/bin/kbbutil
+
+install:	kbbutil
+	@mv kbbutil $(PREFIX)/bin/kbbutil
 
 depend:
 	makedepend -Y $(SRC)
