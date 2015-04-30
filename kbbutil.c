@@ -1,7 +1,7 @@
 /*
- * kbbutil 0.1
+ * kbbutil 0.2
  * A very basic application for controlling the keyboard backlight on OSX-running MacBooks.
- * Copyright 2014, Matthew Connelly.
+ * Copyright 2014-15, Matthew Connelly.
  */
 
 // includes {{{
